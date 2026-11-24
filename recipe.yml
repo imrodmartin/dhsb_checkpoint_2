@@ -1,0 +1,9 @@
+name: 'DrupalHelps Site Building: end of Module 2'
+description: "Brings a fresh Drupal 11.5 Standard site to the end of Module 2 (Content Types). For a fresh site only: it can't repair a half-built one."
+type: Site
+recipes:
+  - dhsb_setup
+install:
+  - address
+  - datetime_range
+  - field_group
